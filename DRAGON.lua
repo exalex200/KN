@@ -164,7 +164,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1803789143,1362402940,1776217339}   
+sudo_users = {SUDO,1896892046,1362402940,1776217339}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -254,7 +254,7 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1803789143) then  
+if tonumber(user_id) == tonumber(1896892046) then  
 var = true  
 elseif tonumber(user_id) == tonumber(1362402940) then
 var = true  
@@ -292,7 +292,7 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1803789143) then  
+if tonumber(user_id) == tonumber(1896892046) then  
 var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(1362402940) then
 var = 'مالك السورس'
@@ -3914,7 +3914,7 @@ if result.sender_user_id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور الاساسي \n")
 return false 
 end
-if result.sender_user_id_ == tonumber(1803789143) then
+if result.sender_user_id_ == tonumber(1896892046) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر مبرمج السورس\n")
 return false 
 end
@@ -4026,7 +4026,7 @@ if result.sender_user_id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم المطور الاساسي \n")
 return false 
 end
-if result.sender_user_id_ == tonumber(1803789143) then
+if result.sender_user_id_ == tonumber(1896892046) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم مبرمج السورس\n")
 return false 
 end
