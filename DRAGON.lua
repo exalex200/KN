@@ -307,7 +307,7 @@ var = 'البوت'
 elseif database:sismember(bot_id..'Sudo:User', user_id) then
 var = database:get(bot_id.."Sudo:Rd"..msg.chat_id_) or 'المطور'  
 elseif database:sismember(bot_id..'CoSu'..chat_id, user_id) then
-var = database:get(bot_id.."CoSu:Rd"..msg.chat_id_) or 'اليكس'
+var = database:get(bot_id.."CoSu:Rd"..msg.chat_id_) or 'كينج'
 elseif database:sismember(bot_id..'Basic:Constructor'..chat_id, user_id) then
 var = database:get(bot_id.."BasicConstructor:Rd"..msg.chat_id_) or 'المنشئ اساسي'
 elseif database:sismember(bot_id..'Constructor'..chat_id, user_id) then
@@ -899,7 +899,7 @@ local start = database:get(bot_id.."Start:Bot")
 if start then 
 SourceDRAGONr = start
 else
-SourceDRAGONr = '⌯اهلا عزيزي\n⌯انا بوت اسمي اليكس\n⌯اختصاصي حمايه الجروبات\n⌯من تكرار والسبام والتوجيه والخ…\n⌯لتفعيلي اتبع الاخطوات…↓\n⌯اضفني الي مجموعتك وقم بترقيتي ادمن واكتب كلمه { تفعيل }  ويستطيع »{ منشئ او المشرفين } بتفعيل فقط\n[⌯معرف المطور '
+SourceDRAGONr = '⌯اهلا عزيزي\n⌯انا بوت اسمي كينج\n⌯اختصاصي حمايه الجروبات\n⌯من تكرار والسبام والتوجيه والخ…\n⌯لتفعيلي اتبع الاخطوات…↓\n⌯اضفني الي مجموعتك وقم بترقيتي ادمن واكتب كلمه { تفعيل }  ويستطيع »{ منشئ او المشرفين } بتفعيل فقط\n[⌯معرف المطور '
 end 
 send(msg.chat_id_, msg.id_, SourceDRAGONr) 
 end
@@ -911,7 +911,7 @@ else
 keyboard = {
 {'مبرمج السورس','بوت التواصل'},
 {'⩹━━━━━━  𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━⩺'},
-{'اليكس'},
+{'كينج'},
 {'⩹━━━━━━  𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━⩺'},
 {'تويت','صراحه'},
 {'⩹━━━━━━  𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━⩺'},
@@ -1080,12 +1080,12 @@ end
 if text == 'تحديث السورس ' and DevSoFi(msg) then 
 os.execute('rm -rf DRAGON.lua')
 os.execute('wget https://raw.githubusercontent.com/exalex200/KN/main/DRAGON.lua')
-send(msg.chat_id_, msg.id_,' ⌯ تم تحديث السورس \n ⌯ لديك اخر اصدار لسورس اليكس\n ⌯ الاصدار » { v 1.5}')
+send(msg.chat_id_, msg.id_,' ⌯ تم تحديث السورس \n ⌯ لديك اخر اصدار لسورس كينج\n ⌯ الاصدار » { v 1.5}')
 dofile('DRAGON.lua')  
 end
 if text == 'الاصدار' and DevSoFi(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' ⌯ اصدار سورس  اليكس\n ⌯ الاصدار »{ v 1.5}')
+send(msg.chat_id_, msg.id_,' ⌯ اصدار سورس  كينج\n ⌯ الاصدار »{ v 1.5}')
 end
 if text == 'مبرمج السورس ' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
@@ -2394,7 +2394,7 @@ return false
 end
 os.execute('rm -rf DRAGON.lua')
 os.execute('wget https://raw.githubusercontent.com/exalex200/KN/main/DRAGON.lua')
-send(msg.chat_id_, msg.id_,' ⌯ تم تحديث السورس \n ⌯ لديك اخر اصدار لسورس اليكس\n ⌯ الاصدار » { v 1.5}')
+send(msg.chat_id_, msg.id_,' ⌯ تم تحديث السورس \n ⌯ لديك اخر اصدار لسورس كينج\n ⌯ الاصدار » { v 1.5}')
 dofile('DRAGON.lua')  
 end
 
@@ -2716,6 +2716,20 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
+if text == 'الكينج' or text == 'Alex' or text == 'KING' then
+local Text = [[
+المبرمج كينجلو حابب تتواصل معاه
+اتبع الزر إلى تحت ⬇️
+
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = '⌯ K I N G ⌯',url="t.me/ramadan12344"}},
+}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+end
+
 
 if text == 'مبرمج السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
@@ -2946,19 +2960,8 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'مبرمج السورس' then
-local Text = [[ 
-[𝗔𝗟𝗘𝗫](t.me/B_TRR)
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
-} 
-local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
 
-if text == 'العاب اليكس' then
+if text == 'العاب كينج' then
 local Text = [[
  𝐀𝑳𝐊𝐈𝐍𝐆
 ]]
@@ -4247,7 +4250,7 @@ end
 end
 
 if text == 'الملفات' and DevSoFi(msg) then
-t = ' ⌯ ملفات السورس اليكس↓\n ≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫ \n'
+t = ' ⌯ ملفات السورس كينج↓\n ≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫ \n'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
 if v:match(".lua$") then
@@ -4264,7 +4267,7 @@ if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
-local TextS = "\n ⌯ اهلا بك في متجر ملفات اليكس\n ⌯ ملفات السورس ↓\n≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫\n\n"
+local TextS = "\n ⌯ اهلا بك في متجر ملفات كينج\n ⌯ ملفات السورس ↓\n≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫\n\n"
 local TextE = "\n≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫\n ⌯ علامة تعني { ✔️ } ملف مفعل\n ⌯ علامة تعني { ✖ } ملف معطل\n ⌯ قناة سورس كينج↓\n".." ⌯ [اضغط هنا لدخول](t.me/alking_1234) \n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
@@ -4303,7 +4306,7 @@ os.execute("rm -fr File_Bot/"..file)
 send(msg.chat_id_, msg.id_,t) 
 dofile('DRAGON.lua')  
 else
-send(msg.chat_id_, msg.id_," ⌯ عذرا الملف لايدعم سورس اليكس\n") 
+send(msg.chat_id_, msg.id_," ⌯ عذرا الملف لايدعم سورس كينج\n") 
 end
 return false
 end
@@ -8166,7 +8169,7 @@ local text =
 ' }\n'..' ⌯  الايدي » { '..idgp..
 ' }\n'..' ??‍♀️  الايدي بالصوره » { '..idph..
 ' }\n'..' ⌯  الرفع » { '..setadd..
--- ' }\n'..' ⌯  الحظر » { '..banm..' }\n\n≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫\n ⌯ قناة سورس اليكس↓\n [  𝐀𝑳𝐊𝐈𝐍𝐆](t.me/alking_1234) \n'
+-- ' }\n'..' ⌯  الحظر » { '..banm..' }\n\n≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫\n ⌯ قناة سورس كينج↓\n [  𝐀𝑳𝐊𝐈𝐍𝐆](t.me/alking_1234) \n'
 send(msg.chat_id_, msg.id_,text)     
 end
 if text ==('تثبيت') and msg.reply_to_message_id_ ~= 0 and Mod(msg) then  
@@ -9217,8 +9220,8 @@ end
 return false
 end
 
-if text == ""..(database:get(bot_id..'Name:Bot') or 'اليكس').."" then  
-Namebot = (database:get(bot_id..'Name:Bot') or 'اليكس')
+if text == ""..(database:get(bot_id..'Name:Bot') or 'كينج').."" then  
+Namebot = (database:get(bot_id..'Name:Bot') or 'كينج')
 local DRAGON_Msg = {
 'ننعم يروحي 😻💙',
 'نعم يا قلب  '..Namebot..'',
@@ -9236,7 +9239,7 @@ return false
 end
 
 if text == "بوت" then  
-Namebot = (database:get(bot_id..'Name:Bot') or 'اليكس')
+Namebot = (database:get(bot_id..'Name:Bot') or 'كينج')
 local DRAGON_Msg = {
 'اسمي  '..Namebot..' يا قلبي 🥺💕 ',
 'اسمي '..Namebot..' يا روحي💋🌚',
@@ -10246,7 +10249,7 @@ end
 end
 
 -------------------------------
-if text == ""..(database:get(bot_id..'Name:Bot') or 'اليكس').." غادر" or text == 'غادر' then  
+if text == ""..(database:get(bot_id..'Name:Bot') or 'كينج').." غادر" or text == 'غادر' then  
 if Sudo(msg) and not database:get(bot_id..'Left:Bot'..msg.chat_id_)  then 
 tdcli_function ({ID = "ChangeChatMemberStatus",chat_id_=msg.chat_id_,user_id_=bot_id,status_={ID = "ChatMemberStatusLeft"},},function(e,g) end, nil) 
 send(msg.chat_id_, msg.id_,'※ تم مغادرة المجموعه') 
@@ -12589,7 +12592,7 @@ if (text and text == "تفعيل اوامر التسليه") then
 send(msg.chat_id_, msg.id_, '  ⌯ تم تفعيل اوامر التسليه')
 database:del(bot_id.."Fun_Bots:"..msg.chat_id_)
 end
-local Name_Bot = (database:get(bot_id..'Name:Bot') or 'اليكس')
+local Name_Bot = (database:get(bot_id..'Name:Bot') or 'كينج')
 if not database:get(bot_id.."Fun_Bots:"..msg.chat_id_) then
 if text ==  ""..Name_Bot..' شنو رئيك بهاذا' and tonumber(msg.reply_to_message_id_) > 0 then     
 function FunBot(extra, result, success) 
