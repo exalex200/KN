@@ -293,7 +293,7 @@ return var
 end 
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1896892046) then  
-var = 'مبرمج السورس'
+var = 'ملك التلجرام'
 elseif tonumber(user_id) == tonumber(1362402940) then
 var = 'مالك السورس'
 elseif tonumber(user_id) == tonumber(1776217339) then
@@ -1079,7 +1079,7 @@ end
 
 if text == 'تحديث السورس ' and DevSoFi(msg) then 
 os.execute('rm -rf DRAGON.lua')
-os.execute('wget https://raw.githubusercontent.com/exalex200/EX/main/DRAGON.lua')
+os.execute('wget https://raw.githubusercontent.com/exalex200/KN/main/DRAGON.lua')
 send(msg.chat_id_, msg.id_,' ⌯ تم تحديث السورس \n ⌯ لديك اخر اصدار لسورس اليكس\n ⌯ الاصدار » { v 1.5}')
 dofile('DRAGON.lua')  
 end
@@ -1129,11 +1129,11 @@ end
 if text == 'بوت تواصل' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[TWL](t.me/TWLANGBOT)
+[TWL](t.me/ramadannn12344148BOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'TW ', url="t.me/TWLANGBOT"}}, 
+{{text = 'TW ', url="t.me/ramadannn12344148BOT"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2393,7 +2393,7 @@ end
 return false
 end
 os.execute('rm -rf DRAGON.lua')
-os.execute('wget https://raw.githubusercontent.com/exalex200/EX/main/DRAGON.lua')
+os.execute('wget https://raw.githubusercontent.com/exalex200/KN/main/DRAGON.lua')
 send(msg.chat_id_, msg.id_,' ⌯ تم تحديث السورس \n ⌯ لديك اخر اصدار لسورس اليكس\n ⌯ الاصدار » { v 1.5}')
 dofile('DRAGON.lua')  
 end
@@ -2692,7 +2692,7 @@ end
 if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
 local Text = [[
 𝐒𝐎𝐔𝐑𝐂𝐄  𝐀𝑳𝐊𝐈𝐍𝐆 ⌯
-⌯اهلا بك في سورس اليكس الجمدان لو عايز بوت بأسعار منسبه وبوت مميز كلمني ⌯
+⌯اهلا بك في سورس كينجالجمدان لو عايز بوت بأسعار منسبه وبوت مميز كلمني ⌯
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -2704,7 +2704,7 @@ end
 
 if text == 'اليكس' or text == 'Alex' or text == 'ALEX' then
 local Text = [[
-المبرمج اليكس لو حابب تتواصل معاه
+المبرمج كينجلو حابب تتواصل معاه
 اتبع الزر إلى تحت ⬇️
 
 ]]
@@ -2753,7 +2753,7 @@ local TWEET_Msg = {
 " ما السيء في هذه الحياة ؟ ", 
 "أجمل شيء حصل معك خلال هذا الاسبوع ؟ ", 
 "سؤال ينرفزك ؟ ", 
-" هل يعجبك سورس اليكس ؟؟ ", 
+" هل يعجبك سورس كينج؟؟ ", 
 " اكثر ممثل تحبه ؟ ", 
 "قد تخيلت شي في بالك وصار ؟ ", 
 "شيء عندك اهم من الناس ؟ ", 
@@ -2935,11 +2935,11 @@ https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. 
 end
 if text == 'بوت التواصل' then
 local Text = [[ 
-[TWL](t.me/TWLANGBOT)
+[TWL](t.me/ramadannn12344148BOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/TWLANGBOT"}}, 
+{{text = ' 𝐀𝑳𝐊𝐈𝐍𝐆', url="t.me/ramadannn12344148BOT"}}, 
 {{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
@@ -2968,22 +2968,18 @@ keyboard = {} keyboard.inline_keyboard = {
 {{text = 'لعبه دراجات', url="https://t.me/gamee?game=MotoFX"},{text = 'سباق سيارات', url="https://t.me/gamee?game=F1Racer"}}, 
 {{text = 'تشابه', url="https://t.me/gamee?game=DiamondRows"},{text = 'كره القدم', url="https://t.me/gamee?game=FootballStar"}}, 
 {{text = 'ورق', url="https://t.me/gamee?game=Hexonix"},{text = 'لعبه 2048', url="https://t.me/awesomebot?game=g2048"}}, 
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'SQUARES', url="https://t.me/gamee?game=Squares"},{text = 'ATOMIC', url="https://t.me/gamee?game=AtomicDrop1"}}, 
 {{text = 'CORSAIRS', url="https://t.me/gamebot?game=Corsairs"},{text = 'LumberJack', url="https://t.me/gamebot?game=LumberJack"}}, 
 {{text = 'LittlePlane', url="https://t.me/gamee?game=LittlePlane"},{text = 'RollerDisco', url="https://t.me/gamee?game=RollerDisco"}},  
 {{text = 'كره القدم 2', url="https://t.me/gamee?game=PocketWorldCup"},{text = 'جمع المياه', url="https://t.me/gamee?game=BlockBuster"}},  
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'لا تجعلها تسقط', url="https://t.me/gamee?game=Touchdown"},{text = 'GravityNinja', url="https://t.me/gamee?game=GravityNinjaEmeraldCity"}},  
 {{text = 'Astrocat', url="https://t.me/gamee?game=Astrocat"},{text = 'Skipper', url="https://t.me/gamee?game=Skipper"}},  
 {{text = 'WorldCup', url="https://t.me/gamee?game=PocketWorldCup"},{text = 'GeometryRun', url="https://t.me/gamee?game=GeometryRun"}},  
 {{text = 'Ten2One', url="https://t.me/gamee?game=Ten2One"},{text = 'NeonBlast2', url="https://t.me/gamee?game=NeonBlast2"}},  
 {{text = 'Paintio', url="https://t.me/gamee?game=Paintio"},{text = 'onetwothree', url="https://t.me/gamee?game=onetwothree"}},  
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'BrickStacker', url="https://t.me/gamee?game=BrickStacker"},{text = 'StairMaster3D', url="https://t.me/gamee?game=StairMaster3D"}},  
 {{text = 'LoadTheVan', url="https://t.me/gamee?game=LoadTheVan"},{text = 'BasketBoyRush', url="https://t.me/gamee?game=BasketBoyRush"}},  
 {{text = 'GravityNinja21', url="https://t.me/gamee?game=GravityNinja21"},{text = 'MarsRover', url="https://t.me/gamee?game=MarsRover"}},  
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'LoadTheVan', url="https://t.me/gamee?game=LoadTheVan"},{text = 'GroovySki', url="https://t.me/gamee?game=GroovySki"}},  
 {{text = 'PaintioTeams', url="https://t.me/gamee?game=PaintioTeams"},{text = 'KeepItUp', url="https://t.me/gamee?game=KeepItUp"}},  
 {{text = 'SunshineSolitaire', url="https://t.me/gamee?game=SunshineSolitaire"},{text = 'Qubo', url="https://t.me/gamee?game=Qubo"}},  
@@ -3005,15 +3001,12 @@ local Text = [[
  𝐀𝑳𝐊𝐈𝐍𝐆
 ]]
 keyboard = {} keyboard.inline_keyboard = {
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'لعبة فلابي بيرد 🐥',url="http://t.me/awesomebot?game=FlappyBird"}},
 {{text = 'سباق سيارات 🏎', url="http://t.me/gamee?game=F1Racer"}},
 {{text = 'كرة قدم ⚽', url="http://t.me/gamee?game=FootballStar"}},
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'سباق الدراجات🏍', url="https://t.me/gamee?game=MotoFX"}},
 {{text = 'متشابه 👾', url="https://t.me/gamee?game=DiamondRows"}},
 {{text = 'ورق🤹‍♂', url="https://t.me/gamee?game=Hexonix"}},
-{{text = '𝗔𝗟𝗘𝗫', url="t.me/B_TRR"}}, 
 {{text = 'MotoFx', url="https://t.me/gamee?game=MotoFx"}},
 {{text = 'ورق🤹‍♂', url="https://t.me/gamee?game=Hexonix"}},
 {{text = 'لعبة 204', url="https://t.me/awesomebot?game=g2048"}},
@@ -4272,7 +4265,7 @@ local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
 local TextS = "\n ⌯ اهلا بك في متجر ملفات اليكس\n ⌯ ملفات السورس ↓\n≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫\n\n"
-local TextE = "\n≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫\n ⌯ علامة تعني { ✔️ } ملف مفعل\n ⌯ علامة تعني { ✖ } ملف معطل\n ⌯ قناة سورس اليكس ↓\n".." ⌯ [اضغط هنا لدخول](t.me/alking_1234) \n"
+local TextE = "\n≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫\n ⌯ علامة تعني { ✔️ } ملف مفعل\n ⌯ علامة تعني { ✖ } ملف معطل\n ⌯ قناة سورس كينج↓\n".." ⌯ [اضغط هنا لدخول](t.me/alking_1234) \n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
 local Check_File_is_Found = io.open("File_Bot/"..name,"r")
@@ -4332,7 +4325,7 @@ chek:close()
 send(msg.chat_id_, msg.id_,t) 
 dofile('DRAGON.lua')  
 else
-send(msg.chat_id_, msg.id_," ⌯ عذرا الملف لايدعم سورس اليكس \n") 
+send(msg.chat_id_, msg.id_," ⌯ عذرا الملف لايدعم سورس كينج\n") 
 end
 return false
 end
@@ -9373,7 +9366,7 @@ end
 if database:sismember(bot_id.."Sudo:User",result.id_) then
 dev = "المطور ،" else dev = "" end
 if database:sismember(bot_id.."CoSu",result.id_) then
-cu = "اليكس ،" else cu = "" end
+cu = "كينج،" else cu = "" end
 if database:sismember(bot_id.."Basic:Constructor"..msg.chat_id_, result.id_) then
 crr = "منشئ اساسي ،" else crr = "" end
 if database:sismember(bot_id..'Constructor'..msg.chat_id_, result.id_) then
@@ -9454,7 +9447,7 @@ end
 if database:sismember(bot_id..'Sudo:User',result.sender_user_id_) then
 dev = 'المطور ،' else dev = '' end
 if database:sismember(bot_id..'CoSu'..msg.chat_id_, result.sender_user_id_) then
-cu = 'اليكس ،' else cu = '' end
+cu = 'كينج،' else cu = '' end
 if database:sismember(bot_id..'Basic:Constructor'..msg.chat_id_, result.sender_user_id_) then
 crr = 'منشئ اساسي ،' else crr = '' end
 if database:sismember(bot_id..'Constructor'..msg.chat_id_, result.sender_user_id_) then
@@ -10078,7 +10071,7 @@ if b.username_ then
 User_id = "@"..b.username_
 else
 User_id = msg.sender_user_id_
-end --الكود حصري سورس اليكس يعني لو بكتهن راح اعرفك انت الاخذتهن
+end --الكود حصري سورس كينجيعني لو بكتهن راح اعرفك انت الاخذتهن
 local t = "\n⌯المستخدم ~ ["..User_id .."] يصيح المشرفين \n≪━━━━━━ 𝐀𝑳𝐊𝐈𝐍𝐆━━━━━━≫\n"
 k = 0
 for i,v in pairs(data.members_) do
@@ -11636,7 +11629,7 @@ end
 return false
 end
 local Text =[[
-         اتبع الازرار تحت ب اوامر سورس اليكس —͟͞ 
+         اتبع الازرار تحت ب اوامر سورس كينج—͟͞ 
 
 واستمتع للأوامر  ≪  
 
@@ -12409,7 +12402,7 @@ https.request("https://api.telegram.org/bot"..token.."/answerCallbackQuery?callb
 return false
 end
 local Teext =[[
-         اتبع الازرار تحت ب اوامر سورس اليكس —͟͞ 
+         اتبع الازرار تحت ب اوامر سورس كينج—͟͞ 
 
 واستمتع للأوامر  ≪  
 
