@@ -3955,6 +3955,10 @@ if (result and result.type_ and result.type_.ID == "ChannelChatInfo") then
 send(msg.chat_id_,msg.id_," ⌯ عذرا عزيزي المستخدم هاذا معرف قناة يرجى استخدام الامر بصوره صحيحه !")   
 return false 
 end      
+if result.id_ == tonumber(1896892046) then
+send(msg.chat_id_, msg.id_, " ⌯ هتحظر مين عام نت اهبل \n")
+return false 
+end
 if tonumber(result.id_) == tonumber(bot_id) then  
 send(msg.chat_id_, msg.id_, " ⌯ لا تسطيع حظر البوت عام")
 return false 
@@ -3988,6 +3992,10 @@ return false
 end
 if userid == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور الاساسي \n")
+return false 
+end
+if userid == tonumber(1896892046) then
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور اليكس \n")
 return false 
 end
 if tonumber(userid) == tonumber(bot_id) then  
@@ -4070,6 +4078,10 @@ if tonumber(result.id_) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ⌯ لا تسطيع كتم البوت عام")
 return false 
 end
+if result.id_ == tonumber(1896892046) then
+send(msg.chat_id_, msg.id_, " ⌯ هتحظر مين عام نت اهبل \n")
+return false 
+end
 if result.id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم المطور الاساسي \n")
 return false 
@@ -4099,6 +4111,10 @@ return false
 end
 if userid == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم المطور الاساسي \n")
+return false 
+end
+if userid == tonumber(1896892046) then
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور الاساسي \n")
 return false 
 end
 if tonumber(userid) == tonumber(bot_id) then  
@@ -10644,7 +10660,7 @@ if text then
 list = {'سلام عليكم'}
 for k,v in pairs(list) do
 if string.find(text,v) ~= nil then
-send(msg.chat_id_,msg.id_, '[وعليكم السلام ..🖤🌚](t.me/alking_1234)') 
+send(msg.chat_id_,msg.id_, '[وعليكم السلام ..🖤??](t.me/alking_1234)') 
 return false
 end
 end
