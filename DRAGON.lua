@@ -3907,19 +3907,19 @@ return false
 end
 function start_function(extra, result, success)
 if result.sender_user_id_ == tonumber(SUDO) then
-send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور الاساسي \n")
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور الاساسي عام\n")
 return false 
 end
 if result.sender_user_id_ == tonumber(1896892046) then
-send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر مبرمج السورس\n")
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر مبرمج السورس عام\n")
 return false 
 end
 if result.sender_user_id_ == tonumber(1362402940) then
-send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر مالك السورس\n")
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر مالك السورس عام\n")
 return false 
 end
 if result.sender_user_id_ == tonumber(1776217339) then
-send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر ملك التلجرام\n")
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر ملك التلجرام عام\n")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(bot_id) then  
@@ -3995,7 +3995,7 @@ send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور الاسا
 return false 
 end
 if userid == tonumber(1896892046) then
-send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور اليكس \n")
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور اليكس عام\n")
 return false 
 end
 if tonumber(userid) == tonumber(bot_id) then  
@@ -4031,15 +4031,15 @@ send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم المطور الاسا
 return false 
 end
 if result.sender_user_id_ == tonumber(1896892046) then
-send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم مبرمج السورس\n")
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم مبرمج السورس عام\n")
 return false 
 end
 if result.sender_user_id_ == tonumber(1362402940) then
-send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم مالك السورس\n")
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم مالك السورس عام\n")
 return false 
 end
 if result.sender_user_id_ == tonumber(1776217339) then
-send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم ملك التلجرام\n")
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم ملك التلجرام عام\n")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(bot_id) then  
@@ -4079,7 +4079,7 @@ send(msg.chat_id_, msg.id_, " ⌯ لا تسطيع كتم البوت عام")
 return false 
 end
 if result.id_ == tonumber(1896892046) then
-send(msg.chat_id_, msg.id_, " ⌯ هتحظر مين عام نت اهبل \n")
+send(msg.chat_id_, msg.id_, " ⌯ هتحظر مين عام نت اهبل عام \n")
 return false 
 end
 if result.id_ == tonumber(SUDO) then
@@ -4114,7 +4114,7 @@ send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك كتم المطور الاسا
 return false 
 end
 if userid == tonumber(1896892046) then
-send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور الاساسي \n")
+send(msg.chat_id_, msg.id_, " ⌯ لا يمكنك حظر المطور الاساسي عام \n")
 return false 
 end
 if tonumber(userid) == tonumber(bot_id) then  
