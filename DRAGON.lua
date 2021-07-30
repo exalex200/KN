@@ -911,9 +911,9 @@ if not DevSoFi(msg) then
 if text == '/start' or text == 'رجعني💘..!'  then  
 local bl = '●انت الان العضو في البوت \n● سورس السلطان\n ●يمكنك تحكم في البوتات من الكيبورد أسفل \n[تابع جديدنا](t.me/ELKAEEB1)'
 local keyboard = {
-{'قـسم مـطورين الـسورس'},
-{'قـسم الالـعـاب'},
-{'قـسم ممـيزات php'},
+{'هكرات السورس 🌚💞'},
+{'تع نتسله 🌚💞'},
+{'اوامر رائعه 🌚💞'},
 }
 send_inline_key(msg.chat_id_,bl,keyboard)
 end
@@ -942,8 +942,8 @@ end
 tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil) 
 end
 end
-if text == 'قـسم الالـعـاب' then
-local Text = 'مرحب بيك في قسم الالعاب'
+if text == 'تع نتسله 🌚💞' then
+local Text = 'يله بينا نلعب 🌚💞'
 local Key = {
 
 {'مطور','انا مين'},
@@ -962,8 +962,8 @@ local Key = {
 }
 send_inline_key(msg.chat_id_,Text,Key)
 end 
-if text == 'قـسم ممـيزات php' then
-local Text = 'مميزات خاصه بي الي متفل في بوتو اغاني فقط'
+if text == 'اوامر رائعه 🌚💞' then
+local Text = 'يله اسمع وادعيلي 🌚💞'
 local Key = {
 
 {'اغاني','مميزات'},
@@ -972,17 +972,15 @@ local Key = {
 
 {'قران'},
 
-{'السلطان'},
-
 {'ثيم','رتبتي'},
 {'رجعني💘..!'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
 end 
-if text == 'قـسم مـطورين الـسورس' then
-local Text = 'مرحب بيك في قسم الالعاب'
+if text == 'هكرات السورس 🌚💞' then
+local Text = 'اليك هكرات السورس'
 local Key = {
-{'سورس'},
+{'دانيال'},
 {'السلطان'},
 {'رجعني💘..!'},
 }
@@ -3014,10 +3012,9 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 	
-{{text = ' ◍ 𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋 𖣌 ',url="t.me/Dad_Daniel"}},
-
-{{text = ' ◍ 𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 𖣌 ',url="t.me/SUL_A_Q"}},
-
+	
+{{text = ' ◍ 𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋 𖣌 ',url="t.me/Dad_Daniel"},{text = ' ◍ 𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 𖣌 ',url="t.me/SUL_A_Q"},},
+	
 {{text = ' ◍ 𝐃𝐀𝐃 𝐏𝐀𝐁𝐋𝐎 𖣌 ',url="t.me/ELHAZEEN3"}},
 
 {{text = '   ◍ M𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂 𖣌  ', url="t.me/ELKAEEB1"}},
@@ -11042,7 +11039,39 @@ tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, l
 end
 
 
+if text == ""..(database:get(bot_id..'Name:Bot') or 'السلطان').."" then  
+Namebot = (database:get(bot_id..'Name:Bot') or 'السلطان')
+local DRAGON_Msg = {
+'ننعم يروحي 😻♥️',
+'نعم يا قلب  '..Namebot..'',
+'عاوز اي من '..Namebot..'',
+'دوختو  '..Namebot..'',
+'بتشقط وجي ويت 🤪',
+'ايوا جاي 🙈',
+'يعم هتسحر واجي 😾',
+'طب متصلي على النبي كدا 🙂💜',
+'تع اشرب شاي 🥺💙',
+'دوس على الخوخه 🍑',
+'متيجي 😉',
+'ياض خش نام 😂',
+} 
+Namebot = DRAGON_Msg[math.random(#DRAGON_Msg)] 
+local msg_id = msg.id_/2097152/0.5  
+keyboard = {} 
+keyboard.inline_keyboard = {
+	
+{{text = '𝐒𝐎𝐔𝐑𝐂𝐄 || 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍', url="t.me/ELKAEEB1"}}, 
 
+}
+local function getpro(extra, result, success) 
+if result.photos_[0] then 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo='..result.photos_[0].sizes_[1].photo_.persistent_id_..'&caption=' .. URL.escape(Namebot).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+else 
+send(msg.chat_id_, msg.id_,Namebot, 1, 'md') 
+end 
+end 
+tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil) 
+end
 
 
 if text and text:match("^(.*)$") then
@@ -14526,11 +14555,11 @@ end
 if text == 'مبرمج السورس 'or text == 'دانيال' then  
 local Text = [[
 
-المبرمج دانيال لو حابب تواصل معاه 
+المبرمج دانيال لو حابب تواصل معاه 💞
 ]]  
 keyboard = {}   
 keyboard.inline_keyboard = {  
-{{text = '◐السلطان◐',url="t.me/Dad_Daniel"}},  
+{{text = '◐دانيال◐',url="t.me/Dad_Daniel"}},  
 
 {{text = '00:00', url="t.me/ELKAEEB1"}}, 
 }  
