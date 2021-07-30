@@ -10066,7 +10066,7 @@ mn = 'منظف ،' else mn = '' end
 if database:sismember(bot_id..'Mod:User'..msg.chat_id_, result.id_) then
 mod = "ادمن ،" else mod = "" end
 if database:sismember(bot_id..'Special:User'..msg.chat_id_, result.id_) then
-السلطان = "مميز ،" else السلطان = ""
+vip = "مميز ،" else vip = ""
 end
 if Can_or_NotCan(result.id_,msg.chat_id_) ~= false then
 send(msg.chat_id_, msg.id_,"\n✶︙ تم تنزيل الشخص من الرتب التاليه \n✶︙  { "..dev..""..crr..""..cr..""..own..""..mod..""..mn..""..السلطان.." } \n")
