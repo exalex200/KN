@@ -1198,7 +1198,7 @@ echo '⚚━━━━━⚚ 𝐒𝐎𝐔𝐑𝐂𝐄 || 𝐄𝐋𝐒𝐔𝐋𝐓
 end
 if text == 'تحديث السورس ' and DevSoFi(msg) then 
 os.execute('rm -rf DRAGON.lua')
-os.execute('wget https://raw.githubusercontent.com/exalex200/ZX/main/DRAGON.lua')
+os.execute('wget https://raw.githubusercontent.com/exalex200/KN/main/DRAGON.lua')
 send(msg.chat_id_, msg.id_,' ✶ تم تحديث السورس')
 dofile('DRAGON.lua')  
 end
@@ -2716,7 +2716,7 @@ end
 return false
 end
 os.execute('rm -rf DRAGON.lua')
-os.execute('wget https://raw.githubusercontent.com/exalex200/ZX/main/DRAGON.lua')
+os.execute('wget https://raw.githubusercontent.com/exalex200/KN/main/DRAGON.lua')
 send(msg.chat_id_, msg.id_,'✶ تم تحديث السورس \n✶ لديك اخر اصدار لسورس السلطان\n✶ الاصدار » { v 1.6 }')
 dofile('DRAGON.lua')  
 end
