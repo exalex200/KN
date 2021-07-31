@@ -185,8 +185,8 @@ end
 print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
-end 
-sudo_users = {SUDO,1909613841,0000,1489700960,1286666714,1058949070,0000,0000}   
+end
+sudo_users = {SUDO,1909613841,1489700960,1286666714,1058949070}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -953,7 +953,11 @@ local Key = {
 
 {'تويت بالصور','لوخيروك بالصور'},
 
+{'𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍'},
+
 {'خلفيات','صور'},
+
+{'𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋'},
 
 {'صراحه','تويت'},
 
@@ -970,6 +974,10 @@ local Key = {
 
 {'افلام','العاب'},
 
+{'𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋'},
+
+{'𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍'},
+
 {'قران'},
 
 {'ثيم','رتبتي'},
@@ -980,8 +988,8 @@ end
 if text == 'هكرات السورس 🌚💞' then
 local Text = 'اليك هكرات السورس'
 local Key = {
-{'دانيال'},
-{'السلطان'},
+{'𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋'},
+{'𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍'},
 {'رجعني💘..!'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
@@ -12300,7 +12308,7 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = '𝐒𝐎𝐔𝐑𝐂𝐄 || 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍', url="t.me/ELKAEEB1"},
+{text = '𝐒𝐎𝐔??𝐂𝐄 || 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍', url="t.me/ELKAEEB1"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -14552,7 +14560,38 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SUL_A_Q&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
+if text == '𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍' or text == 'هكوره' then  
+local Text = [[  
+مطور السورس 🌚💞
+]]  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 🌚💞',url="t.me/SUL_A_Q"}},  
+
+{{text = '00:00', url="t.me/ELKAEEB1"}}, 
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SUL_A_Q&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+
+
 if text == 'مبرمج السورس'or text == 'دانيال' then  
+local Text = [[
+
+مبرمج السورس 🌚💞
+]]  
+keyboard = {}   
+keyboard.inline_keyboard = {  
+{{text = '𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋 🌚💞',url="t.me/Dad_Daniel"}},  
+
+{{text = '00:00', url="t.me/ELKAEEB1"}}, 
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Dad_Daniel&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == '𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋'or text == 'هكوره تاني' then  
 local Text = [[
 
 مبرمج السورس 🌚💞
