@@ -974,7 +974,7 @@ local Key = {
 {'اغاني','مميزات'},
 
 
-{'دنيال'},
+{'دانيال'},
 
 
 {'افلام','العاب'},
@@ -993,7 +993,7 @@ end
 if text == 'هكرات السورس 🌚💞' then
 local Text = 'اليك هكرات السورس'
 local Key = {
-{'دنيال'},
+{'دانيال'},
 {'السلطان'},
 {'رجعني💘..!'},
 }
@@ -11030,7 +11030,7 @@ local DRAGON_Msg = {
 'عيون البوت اسمي '..Namebot..' يعمري🥺❤️',
 'اسمي '..Namebot..' ياحياتي🥺♥️',
 'اسمي '..Namebot..' يوتكه🥺❤️',
-'انا '..Namebot..' ينوحي🙀??',
+'انا '..Namebot..' ينوحي??🥺',
 }
 
 Namebot = DRAGON_Msg[math.random(#DRAGON_Msg)] 
@@ -14534,7 +14534,7 @@ local Text = [[
 ◐ ثيم ← لعرض الميزه
 ◐ م11← مـيزه خاصه  للبـوتات المدفوعـه تشـرح مميزات البـوت 
 ⚚━━━━━⚚ 𝐒𝐎𝐔𝐑𝐂𝐄 || 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍⚚━━━━━⚚
-◐ 𝘾𝙃 - [𓌹 ᯓ المبرمج السلطان ★ 𓌺](t.me/Dad_Daniel) 
+◐ 𝘾𝙃 - [𓌹 ᯓ المبرمج دانيال ★ 𓌺](t.me/Dad_Daniel) 
 ⚚━━━━━⚚ 𝐒𝐎𝐔𝐑𝐂𝐄 || 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍⚚━━━━━⚚
 ]]
 keyboard = {}  
@@ -14545,7 +14545,7 @@ keyboard.inline_keyboard = {
 {{text = '00:00', url="t.me/ELKAEEB1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SIRIA199&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Dad_Daniel&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 
