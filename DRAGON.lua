@@ -912,9 +912,9 @@ if text == '/start' or text == 'رجعني💘..!'  then
 local bl = '●انت الان العضو في البوت \n● سورس السلطان\n ●يمكنك تحكم في البوتات من الكيبورد أسفل \n[تابع جديدنا](t.me/ELKAEEB1)'
 local keyboard = {
 {'هكرات السورس 🌚💞'},
-{'◐ 𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋 ◐'},
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'تع نتسله 🌚💞'},
-{'◐ 𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 ◐'},
+{'☩━━━━☩𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍☩━━━━☩'},
 {'اوامر رائعه 🌚💞'},
 }
 send_inline_key(msg.chat_id_,bl,keyboard)
@@ -932,6 +932,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 	
 {{text = '00:00', url="t.me/ELKAEEB1"}}, 
+{ {text = 'اضف البوت لمجموعتك 🌚💞', url="http://t.me/"..sudos.UserName.."?startgroup=new"}, },
 
 }
 local function getpro(extra, result, success) 
@@ -949,22 +950,21 @@ local Text = 'يله بينا نلعب 🌚💞'
 local Key = {
 
 {'مطور','انا مين'},
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'دانيال'},
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'انصحنى','كتبات'},
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'تويت بالصوره','لو خيروك بالصوره'},
-
-
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'خلفيات','صور'},
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'السلطان'},
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'صراحه','تويت'},
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'حروف','لو خيروك','نكته'},
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'رجعني💘..!'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
@@ -974,20 +974,17 @@ local Text = 'يله اسمع وادعيلي 🌚💞'
 local Key = {
 
 {'اغاني','مميزات'},
-
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'دانيال'},
-
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'افلام','العاب'},
-
-
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'قران'},
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'السلطان'},
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'ثيم','رتبتي'},
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'رجعني💘..!'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
@@ -995,10 +992,10 @@ end
 if text == 'هكرات السورس 🌚💞' then
 local Text = 'اليك هكرات السورس'
 local Key = {
-	
 {'دانيال'},
-
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'السلطان'},
+{'☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'},
 {'رجعني💘..!'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
@@ -1320,6 +1317,7 @@ keyboard.inline_keyboard = {
 {
 {text = '00:00', url="t.me/ELKAEEB1"},
 },
+{ {text = 'اضف البوت لمجموعتك 🌚💞', url="http://t.me/"..sudos.UserName.."?startgroup=new"}, },
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id='..msg.chat_id_..'&caption='..URL.escape(Name)..'&photo='..taha.photos_[0].sizes_[1].photo_.persistent_id_..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -1368,28 +1366,6 @@ if text == 'الاصدار' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 send(msg.chat_id_, msg.id_,' ◐ اصدار سورس السلطان{ S:12✓}')
 end
-if text == '• ━━━━━━❪الركن الاخير❫━━━━━━ •' and DevSoFi(msg) then
-local Text = [[ 
-[قناه سورس السلطان ادخل وتابع الجديد](t.me/ELKAEEB1)
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text = '00:00', url="t.me/ELKAEEB1"}}, 
-} 
-local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ELKAEEB1/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
-if text == '• ━━━━━━❪الاقسام❫━━━━━━ •' and DevSoFi(msg) then
-local Text = [[ 
-[قناه سورس السلطان ادخل وتابع الجديد](t.me/ELKAEEB1)
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text = '00:00', url="t.me/ELKAEEB1"}}, 
-} 
-local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ELKAEEB1/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
 if text == 'معلومات الكيبورد' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
@@ -1416,6 +1392,7 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = 'قناه السورس', url="t.me/ELKAEEB1"}}, 
+{ {text = 'اضف البوت لمجموعتك 🌚💞', url="http://t.me/"..sudos.UserName.."?startgroup=new"}, },
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -1442,6 +1419,7 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '00:00', url="t.me/ELKAEEB1"}}, 
+{ {text = 'اضف البوت لمجموعتك 🌚💞', url="http://t.me/"..sudos.UserName.."?startgroup=new"}, },
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ELKAEEB1/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3020,21 +2998,24 @@ if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or te
 local msg_id = msg.id_/2097152/0.5
 local Text = [[
 
-❍[◐ 𝐒𝐎𝐔𝐑𝐂𝐄  𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 ◐  ](t.me/ELKAEEB1)
+❍[◍ 𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄 ](t.me/Dad_Daniel)
 
-❍[⟦𝓽ꫝꫀ ᥇ꫀ𝘴𝓽  𝘴ꪮꪊ𝘳ᥴꫀ ⟧](t.me/ELKAEEB1)
+❍[◍ 𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 ](t.me/SUL_A_Q)
+
+❍[◍ 𝙳𝙴𝚅 𝙿𝙾𝚆𝙴𝚁  ](t.me/M_S_U)
   
-❍[◐ 𝐒𝐎𝐔𝐑𝐂𝐄  𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 ◐ ](t.me/ELKAEEB1)
+❍[◍ 𝐒𝐎𝐔𝐑𝐂𝐄  𝐄𝐋𝐒𝐔𝐋𝐓𝐀 ◐ ](t.me/ELKAEEB1)
+
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 	
 	
-{{text = ' ◍ ◐ 𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋 ◐ 𖣌 ',url="t.me/Dad_Daniel"},{text = ' ◍ ◐ 𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 ◐ 𖣌 ',url="t.me/SUL_A_Q"},},
+{{text = ' ◍ 𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋𖣌 ',url="t.me/Dad_Daniel"},{text = ' ◍ 𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍𖣌 ',url="t.me/SUL_A_Q"},},
 	
 {{text = ' ◍ 𝐃𝐀𝐃 𝐏𝐀𝐁𝐋𝐎 𖣌 ',url="t.me/ELHAZEEN3"}},
 
-{{text = '   ◍ M𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂 𖣌  ', url="t.me/ELKAEEB1"}},
+{{text = '   ◍ 𝐒𝐎𝐔𝐑𝐂𝐄  𝐄𝐋𝐒𝐔𝐋𝐓𝐀 𖣌  ', url="t.me/ELKAEEB1"},{text = 'مطور البوت 🌚💞', url="http://t.me/"..sudos.UserName},},
 
 { {text = 'اضف البوت لمجموعتك 🌚💞', url="http://t.me/"..sudos.UserName.."?startgroup=new"}, },
 
@@ -14578,7 +14559,7 @@ local Text = [[
 ]]  
 keyboard = {}   
 keyboard.inline_keyboard = {  
-{{text = '◐ 𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 ◐ 🌚💞',url="t.me/SUL_A_Q"}},  
+{{text = '𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍🌚💞',url="t.me/SUL_A_Q"}},  
 
 {{text = '00:00', url="t.me/ELKAEEB1"}}, 
 
@@ -14588,13 +14569,13 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SUL_A_Q&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == '◐ 𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 ◐' or text == 'هكوره' then  
+if text == '☩━━━━☩𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍☩━━━━☩' or text == 'هكوره' then  
 local Text = [[  
 مطور السورس 🌚💞
 ]]  
 keyboard = {}   
 keyboard.inline_keyboard = {  
-{{text = '◐ 𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍 ◐ 🌚💞',url="t.me/SUL_A_Q"}},  
+{{text = '𝐃𝐀𝐃 𝐄𝐋𝐒𝐔𝐋𝐓𝐀𝐍🌚💞',url="t.me/SUL_A_Q"}},  
 
 
 
@@ -14615,7 +14596,7 @@ local Text = [[
 ]]  
 keyboard = {}   
 keyboard.inline_keyboard = {  
-{{text = '◐ 𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋 ◐ 🌚💞',url="t.me/Dad_Daniel"}},  
+{{text = '𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋🌚💞',url="t.me/Dad_Daniel"}},  
 
 {{text = '00:00', url="t.me/ELKAEEB1"}}, 
 
@@ -14625,14 +14606,14 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Dad_Daniel&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == '◐ 𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋 ◐'or text == 'هكوره تاني' then  
+if text == '☩━━━━☩𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋☩━━━━☩'or text == 'هكوره تاني' then  
 local Text = [[
 
 مبرمج السورس 🌚💞
 ]]  
 keyboard = {}   
 keyboard.inline_keyboard = {  
-{{text = '◐ 𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋 ◐ 🌚💞',url="t.me/Dad_Daniel"}},  
+{{text = '𝐃𝐀𝐃 𝐃𝐀𝐍𝐈𝐄𝐋 🌚💞',url="t.me/Dad_Daniel"}},  
 
 {{text = '00:00', url="t.me/ELKAEEB1"}}, 
 
