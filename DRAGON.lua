@@ -3015,7 +3015,7 @@ keyboard.inline_keyboard = {
 	
 {{text = ' ◍ 𝐃𝐀𝐃 𝐏𝐀𝐁𝐋𝐎 𖣌 ',url="t.me/ELHAZEEN3"}},
 
-{{text = '   ◍ 𝐒𝐎𝐔𝐑𝐂𝐄  𝐄𝐋𝐒𝐔𝐋𝐓𝐀 𖣌  ', url="t.me/ELKAEEB1"},{text = 'مطور البوت 🌚💞', url="http://t.me/"..sudos.UserName"},},
+{{text = '   ◍ 𝐒𝐎𝐔𝐑𝐂𝐄  𝐄𝐋𝐒𝐔𝐋𝐓𝐀 𖣌', url="t.me/ELKAEEB1"}},
 
 { {text = 'اضف البوت لمجموعتك 🌚💞', url="http://t.me/"..sudos.UserName.."?startgroup=new"}, },
 
